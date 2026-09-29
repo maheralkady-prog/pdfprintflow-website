@@ -282,16 +282,13 @@ function setupFaq() {
     });
 }
 
-// Checkout / Subscription Action
+// Checkout / Subscription Action (Lemon Squeezy Official Checkouts)
 function openCheckout(planType) {
-    const phone = "201028111558";
-    const planName = planType === 'annual' ? "Annual ($249/yr / 6,000 EGP)" : "Monthly ($24.99/mo / 600 EGP)";
-    const text = encodeURIComponent(
-        currentLang === 'ar' 
-            ? `السلام عليكم، أود تفعيل باقة الاشتراك: ${planName} لبرنامج PDF PrintFlow Pro.`
-            : `Hello, I would like to activate the subscription plan: ${planName} for PDF PrintFlow Pro.`
-    );
-    window.open(`https://wa.me/${phone}?text=${text}`, '_blank');
+    const monthlyCheckoutUrl = "https://pdfprintflowsoftware.lemonsqueezy.com/checkout/buy/6ab184ea-8a88-4798-9ef0-cf497317396e";
+    const annualCheckoutUrl = "https://pdfprintflowsoftware.lemonsqueezy.com/checkout/buy/7feb9144-a4b3-4b2e-9c4e-65834f08df67";
+
+    const targetUrl = planType === 'annual' ? annualCheckoutUrl : monthlyCheckoutUrl;
+    window.open(targetUrl, '_blank');
 }
 
 // WhatsApp Quick Chat
