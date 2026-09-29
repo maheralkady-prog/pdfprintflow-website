@@ -302,11 +302,8 @@ function openWhatsApp() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Detect browser language default
-    const userPrefersArabic = navigator.language && navigator.language.startsWith('ar');
-    if (userPrefersArabic) {
-        currentLang = 'ar';
-    }
+    // Always default to English on load
+    currentLang = 'en';
     applyLanguage(currentLang);
     setupPricingToggle();
     setupFaq();
