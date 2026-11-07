@@ -284,8 +284,8 @@ function setupFaq() {
 
 // Checkout / Subscription Action (Lemon Squeezy Official Checkouts)
 function openCheckout(planType) {
-    const monthlyCheckoutUrl = "https://pdfprintflowsoftware.lemonsqueezy.com/checkout/buy/6ab184ea-8a88-4798-9ef0-cf497317396e";
-    const annualCheckoutUrl = "https://pdfprintflowsoftware.lemonsqueezy.com/checkout/buy/7feb9144-a4b3-4b2e-9c4e-65834f08df67";
+    const monthlyCheckoutUrl = "https://pdfprintflowsoftware.lemonsqueezy.com/checkout/buy/53162ef9-fb87-4891-b605-8eea16809275";
+    const annualCheckoutUrl = "https://pdfprintflowsoftware.lemonsqueezy.com/checkout/buy/0cae3314-f185-404f-9c3d-c1b6c4f5cccc";
 
     const targetUrl = planType === 'annual' ? annualCheckoutUrl : monthlyCheckoutUrl;
     window.open(targetUrl, '_blank');
