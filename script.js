@@ -85,10 +85,10 @@ const translations = {
         featureCosting: "Automated Job Costing & Profit Calculator",
         featureInvoicing: "Thermal Receipts & A4 Invoice Generator",
         featureUpdates: "Free Version Updates & Support Included",
-        btnSubscribeMonthly: "Subscribe Monthly - $24.99",
-        btnSubscribeAnnual: "Subscribe Annually - $249",
-        regionalMonthly: "Local / Egypt: 600 EGP / month",
-        regionalAnnual: "Local / Egypt: 6,000 EGP / year",
+        btnSubscribeMonthly: "Subscribe Monthly - $10 (150 EGP)",
+        btnSubscribeAnnual: "Subscribe Annually - $100 (1,500 EGP)",
+        regionalMonthly: "Local / Egypt: 150 EGP / month",
+        regionalAnnual: "Local / Egypt: 1,500 EGP / year",
 
         // FAQ
         faqTitle: "Frequently Asked Questions",
@@ -194,10 +194,10 @@ const translations = {
         featureCosting: "حاسبة تكاليف الورق وخامات التجليد والأرباح",
         featureInvoicing: "إصدار الإيصالات الحرارية والفواتير للعملاء",
         featureUpdates: "تحديثات دورية مجانية ودعم فني مخصص",
-        btnSubscribeMonthly: "اشترك شهرياً - $24.99",
-        btnSubscribeAnnual: "اشترك سنوياً - $249",
-        regionalMonthly: "محلياً / مصر: 600 ج.م / شهر",
-        regionalAnnual: "محلياً / مصر: 6,000 ج.م / سنة",
+        btnSubscribeMonthly: "اشترك شهرياً - 150 ج.م ($10)",
+        btnSubscribeAnnual: "اشترك سنوياً - 1,500 ج.م ($100)",
+        regionalMonthly: "محلياً / مصر: 150 ج.م / شهر (خارج مصر 10$)",
+        regionalAnnual: "محلياً / مصر: 1,500 ج.م / سنة (خارج مصر 100$)",
 
         // FAQ
         faqTitle: "الأسئلة الأكثر شيوعاً",
